@@ -2,5 +2,14 @@
 
 // Reset
 @import "vendor/normalize";
+@import "vendor/animate";
+
+body {
+  padding: 20px;
+
+  @media screen and (min-width: 700px) {
+    padding: 50px;
+  }
+}
 
 // Styles go here!
